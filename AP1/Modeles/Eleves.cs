@@ -16,7 +16,7 @@ namespace AP1.Modeles
         private statut _statut;
         #endregion
         #region Constructeurs
-        public Eleves(int id, string nom, string mdp, statut statut)
+        public Eleves(int id, string nom, string mdp)
         {
             _id = id;
             _nom = nom;
