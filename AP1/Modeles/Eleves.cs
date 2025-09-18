@@ -18,12 +18,12 @@ namespace AP1.Modeles
         
         #endregion
         #region Constructeurs
-        public Eleves(int id, string nom, string mdp, Statut statut)
+        public Eleves(int id, string nom, string mdp)
         {
             _id = id;
             _nom = nom;
             _mdp = mdp;
-            _statut = statut;
+            _statut = 0;
         }
         #endregion
         #region Getters/Setters
