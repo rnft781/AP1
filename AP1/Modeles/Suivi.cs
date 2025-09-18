@@ -13,10 +13,10 @@ namespace AP1.Modeles
         private List<Eleves> lesEleves;
         #endregion
         #region Constructeurs
-        public Suivi(int tempsRestants, List<Eleves> lesEleves)
+        public Suivi(int tempsRestants)
         {
             _tempsRestants = tempsRestants;
-            new List<Eleves>();
+            lesEleves = new List<Eleves>();
         }
         #endregion
         #region Getters/Setters

@@ -9,16 +9,19 @@ namespace AP1.Modeles
     public class Scores
     {
         #region Proprietes
-        private List<Scores> lesScores;
+        private int _score;
+        private List<Jeux> _lesJeux;
         #endregion
         #region Constructeurs
-        public Scores()
+        public Scores(int score)
         {
-            lesScores = new List<Scores>();
+            _score = score;
+            _lesJeux = new List<Jeux>();
         }
         #endregion
         #region Getters/Setters
-        public List<Scores> LesScores { get => lesScores; set => lesScores = value; }
+        public int Score { get => _score; set => _score = value; }
+        public List<Jeux> LesJeux { get => _lesJeux; set => _lesJeux = value; }
         #endregion
         #region Methodes
         #endregion

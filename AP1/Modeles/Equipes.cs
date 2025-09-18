@@ -12,13 +12,17 @@ namespace AP1.Modeles
         private int _idEquipe;
         private int _nbPlaces;
         private int _score;
+        private Capitaine _leCapitaine;
+        private List<Eleves> lesEleves;
         #endregion
         #region Constructeurs
-        public Equipes(int idEquipe, int nbPlaces, int score)
+        public Equipes(int idEquipe, int nbPlaces, int score, Capitaine leCapitaine)
         {
             _idEquipe = idEquipe;
             _nbPlaces = nbPlaces;
             _score = score;
+            _leCapitaine = leCapitaine;
+            lesEleves = new List<Eleves>();
         }
         #endregion
         #region Getters/Setters

@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace AP1.Modeles
 {
-    internal class Capitaine : Eleves
+    public class Capitaine : Eleves
     {
         #region Proprietes
         private int _nb1indice;
         private int _idCapitaine;
         #endregion
         #region Constructeurs
-        public Capitaine(int id, string nom, string mdp, statut statut, int nb1indice, int idCapitaine) : base(id, nom, mdp, statut)
+        public Capitaine(int id, string nom, string mdp, Statut statut, int nb1indice, int idCapitaine) : base(id, nom, mdp, statut)
         {
             _nb1indice = nb1indice;
             _idCapitaine = idCapitaine;
