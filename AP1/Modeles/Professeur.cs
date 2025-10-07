@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace AP1.Modeles
 {
-    internal class Professeur
+    public class Professeur
     {
+        #region propriete
+        private int _id;
+        private List<Competition> _lesCompetitions;
+
+        #endregion
+        #region constructeur
+        public int Id { get => _id; set => _id = value; }
+        public List<Competition> LesCompetitions { get => _lesCompetitions; set => _lesCompetitions = value; }
+        #endregion
+        #region getter/setter
+        #endregion
+        #region methode
+        #endregion
     }
 }

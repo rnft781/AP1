@@ -6,7 +6,26 @@ using System.Threading.Tasks;
 
 namespace AP1.Modeles
 {
-    internal class Competition
+    public class Competition
     {
+        #region propriete
+        private int _id;
+        private DateTime _dateDeb;
+        private DateTime _dateFin;
+        private List<Score> _lesScores;
+        private Professeur _leProfesseur;
+
+        #endregion
+        #region constructeur
+        public int Id { get => _id; set => _id = value; }
+        public DateTime DateDeb { get => _dateDeb; set => _dateDeb = value; }
+        public DateTime DateFin { get => _dateFin; set => _dateFin = value; }
+        public List<Score> LesScores { get => _lesScores; set => _lesScores = value; }
+        public Professeur LeProfesseur { get => _leProfesseur; set => _leProfesseur = value; }
+        #endregion
+        #region getter/setter
+        #endregion
+        #region methode
+        #endregion
     }
 }
