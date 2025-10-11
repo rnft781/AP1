@@ -14,10 +14,11 @@ namespace AP1.Modeles
 
         #endregion
         #region constructeur
-        public int Id { get => _id; set => _id = value; }
-        public List<Competition> LesCompetitions { get => _lesCompetitions; set => _lesCompetitions = value; }
+
         #endregion
         #region getter/setter
+        public int Id { get => _id; set => _id = value; }
+        public List<Competition> LesCompetitions { get => _lesCompetitions; set => _lesCompetitions = value; }
         #endregion
         #region methode
         #endregion

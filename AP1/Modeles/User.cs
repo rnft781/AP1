@@ -18,14 +18,14 @@ namespace AP1.Modeles
 
         #endregion
         #region constructeur
+        #endregion
+        #region getter/setter
         public int Id { get => _id; set => _id = value; }
         public string Nom { get => _nom; set => _nom = value; }
         public string Mdp { get => _mdp; set => _mdp = value; }
         public string Statut { get => _statut; set => _statut = value; }
         public Equipe LeEleve { get => _leEleve; set => _leEleve = value; }
         public Equipe LaEquipe { get => _laEquipe; set => _laEquipe = value; }
-        #endregion
-        #region getter/setter
         #endregion
         #region methode
         #endregion

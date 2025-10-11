@@ -17,13 +17,13 @@ namespace AP1.Modeles
 
         #endregion
         #region constructeur
+        #endregion
+        #region getter/setter
         public int Id { get => _id; set => _id = value; }
         public DateTime DateDeb { get => _dateDeb; set => _dateDeb = value; }
         public DateTime DateFin { get => _dateFin; set => _dateFin = value; }
         public List<Score> LesScores { get => _lesScores; set => _lesScores = value; }
         public Professeur LeProfesseur { get => _leProfesseur; set => _leProfesseur = value; }
-        #endregion
-        #region getter/setter
         #endregion
         #region methode
         #endregion

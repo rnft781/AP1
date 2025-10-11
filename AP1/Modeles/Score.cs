@@ -17,13 +17,13 @@ namespace AP1.Modeles
 
         #endregion
         #region constructeur
+        #endregion
+        #region getter/setter
         public int Id { get => _id; set => _id = value; }
         public Equipe LeEquipe { get => _leEquipe; set => _leEquipe = value; }
         public Competition LaCompetition { get => _laCompetition; set => _laCompetition = value; }
         public Jeu Lejeu { get => _lejeu; set => _lejeu = value; }
         public TypeJeu LeTypeJeu { get => _leTypeJeu; set => _leTypeJeu = value; }
-        #endregion
-        #region getter/setter
         #endregion
         #region methode
         #endregion

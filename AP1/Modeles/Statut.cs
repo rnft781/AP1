@@ -13,9 +13,10 @@ namespace AP1.Modeles
 
         #endregion
         #region constructeur
-        public List<Jeu> LesJeux { get => lesJeux; set => lesJeux = value; }
         #endregion
         #region getter/setter
+        public List<Jeu> LesJeux { get => lesJeux; set => lesJeux = value; }
+
         #endregion
         #region methode
         #endregion

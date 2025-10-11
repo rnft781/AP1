@@ -12,9 +12,10 @@ namespace AP1.Modeles
         private List<Jeu> _lesJeux;
         #endregion
         #region constructeur
-        public List<Jeu> LesJeux { get => _lesJeux; set => _lesJeux = value; }
         #endregion
         #region getter/setter
+        public List<Jeu> LesJeux { get => _lesJeux; set => _lesJeux = value; }
+
         #endregion
         #region methode
         #endregion
