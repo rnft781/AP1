@@ -27,10 +27,10 @@ namespace AP1.Modeles
         }
 
         // Afficher les informations
-        public override string ToString()
-        {
-            return $"Professeur {_prenom} {_nom} - {_lesCompetitions.Count} compétitions";
-        }
+            //public override string ToString()
+        //{
+          //  return $"Professeur {_prenom} {_nom} - {_lesCompetitions.Count} compétitions";
+        //}
         #endregion
     }
 }
