@@ -66,13 +66,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="NewFolder\" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="Vues\Register.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
+	  <Folder Include="Vues\" />
 	</ItemGroup>
 
 </Project>
