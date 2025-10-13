@@ -21,6 +21,16 @@ namespace AP1.Modeles
         public List<Competition> LesCompetitions { get => _lesCompetitions; set => _lesCompetitions = value; }
         #endregion
         #region methode
+        public void AjouterCompetition(Competition competition)
+        {
+            _lesCompetitions.Add(competition);
+        }
+
+        // Afficher les informations
+        public override string ToString()
+        {
+            return $"Professeur {_prenom} {_nom} - {_lesCompetitions.Count} compétitions";
+        }
         #endregion
     }
 }

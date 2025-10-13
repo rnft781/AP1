@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace AP1.Modeles
-{  
+{
     public class User
     {
         #region propriete
@@ -46,7 +46,7 @@ namespace AP1.Modeles
         public string Email { get => _email; set => _email = value; }
         #endregion
         #region methode
-        public 
+        public
         #endregion
     }
 }
