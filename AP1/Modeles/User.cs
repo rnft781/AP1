@@ -46,7 +46,7 @@ namespace AP1.Modeles
         public string Email { get => _email; set => _email = value; }
         #endregion
         #region methode
-        public 
+        
         #endregion
     }
 }
