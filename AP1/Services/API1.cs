@@ -83,7 +83,7 @@ namespace AP1.Services
         }
 
         // POST -> objet (mais signature ambiguë : T = requête ET réponse)
-        public async Task<T> GetOneAsync<T>(string endpoint, T requestDataObj, CancellationToken ct = default)
+        public async Task<T?> GetOneAsync<T>(string endpoint, T requestDataObj, CancellationToken ct = default)
         {
             try
             {
@@ -108,7 +108,7 @@ namespace AP1.Services
 
         #region Helpers privés
 
-        private static async Task EnsureSuccess(HttpResponseMessage response, string path, string payload = null)
+        private static async Task EnsureSuccess(HttpResponseMessage response, string path, string payload = "")
         {
             if (response.IsSuccessStatusCode) return;
 
