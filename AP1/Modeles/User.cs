@@ -1,5 +1,4 @@
-﻿using AP1.Services;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,8 +17,6 @@ namespace AP1.Modeles
         private Equipe _leEleve;
         private Equipe _laEquipe;
         private Apis _apis;
-
-
 
         #endregion
         #region constructeur
@@ -42,11 +39,11 @@ namespace AP1.Modeles
         public string Statut { get => _statut; set => _statut = value; }
         public Equipe LeEleve { get => _leEleve; set => _leEleve = value; }
         public Equipe LaEquipe { get => _laEquipe; set => _laEquipe = value; }
+
         public Apis Apis { get => _apis; set => _apis = value; }
         public string Email { get => _email; set => _email = value; }
         #endregion
         #region methode
-        
         #endregion
     }
 }
