@@ -26,11 +26,11 @@ namespace AP1.Modeles
             _lesCompetitions.Add(competition);
         }
 
-        // Afficher les informations
-        public override string ToString()
-        {
-            return $"Professeur {_prenom} {_nom} - {_lesCompetitions.Count} compétitions";
-        }
+        //Afficher les informations
+        //public override string ToString()
+       // {
+           // return $"Professeur {_prenom} {_nom} - {_lesCompetitions.Count} compétitions";
+      //  }
         #endregion
     }
 }

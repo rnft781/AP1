@@ -7,7 +7,7 @@ namespace AP1
         public App()
         {
             InitializeComponent();
-            MainPage = new Register();
+            MainPage = new  NavigationPage(new  Register());
         }
 
         protected override Window CreateWindow(IActivationState? activationState)
